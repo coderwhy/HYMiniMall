@@ -3,7 +3,8 @@
         indicator-active-color='#ff5777'
         autoplay='true'
         circular='true'
-        interval='3000'>
+        interval='3000'
+        class='swiper'>
   <block wx:for="{{images}}" wx:key="index">
     <swiper-item>
       <image class="swiper-image" src="{{item}}" mode='widthFix'/>
