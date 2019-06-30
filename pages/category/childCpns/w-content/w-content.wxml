@@ -1,0 +1,21 @@
+<!--pages/category/childCpns/w-content/w-content.wxml-->
+<scroll-view class='content' scroll-y>
+  <!-- 1.子类别展示 -->
+  <view class='subcategory'>
+    <block wx:for="{{subcategories}}" wx:key="index">
+      <view class='item'>
+        <image src="{{item.image}}" mode='widthFix'/>
+        <view>{{item.title}}</view>
+      </view>
+    </block>
+  </view>
+
+  <!-- 2.工具栏 -->
+  <!-- <w-tab-control titles="{{['综合', '新品', '销量']}}"
+                 bind:tabclick="tabClick"/> -->
+
+  <!-- 3.详情数据展示 -->
+  <view class='detail'>
+    <w-goods goodslist="{{categoryDetail}}"/>
+  </view>
+</scroll-view>

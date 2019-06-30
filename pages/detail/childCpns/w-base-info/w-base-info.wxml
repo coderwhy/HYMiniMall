@@ -1,0 +1,25 @@
+<!--pages/detail/childCpns/w-base-info.wxml-->
+<view class='base-info'>
+  <view class='title'>{{baseInfo.title}}</view>
+  <view class='price-info'>
+    <text class='new-price'>{{baseInfo.newPrice}}</text>
+    <text class='old-price'>{{baseInfo.oldPrice}}</text>
+    <text class='discount'>{{baseInfo.discount}}</text>
+  </view>
+  <view class='sell-info'>
+    <block wx:for="{{baseInfo.columns}}" wx:key="index">
+      <view class='sell-item'>{{item}}</view>
+    </block>
+  </view>
+  <view class='service'>
+    <block wx:for="{{baseInfo.services}}" wx:key="index">
+      <!-- 延误必赔是否显示? -->
+      <block wx:if="{{index !== 0}}">
+        <view class='service-item'>
+          <image class='icon' src="{{item.icon}}"/>
+          <text class='name'>{{item.name}}</text>
+        </view>
+      </block>
+    </block>
+  </view>
+</view>

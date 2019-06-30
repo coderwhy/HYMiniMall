@@ -1,0 +1,21 @@
+<!--pages/detail/childCpns/w-bottom-bar/w-bottom-bar.wxml-->
+<view class='bottom-bar'>
+  <view class='bar-left bar-item'>
+    <view class='left-item service'>
+      <image src="/assets/images/detail/service.png"/>
+      <view>客服</view>
+    </view>
+    <view class='left-item'>
+      <image src="/assets/images/detail/shop.png"/>
+      <view>店铺</view>
+    </view>
+    <view class='left-item'>
+      <image src="/assets/images/detail/collect.png"/>
+      <view>收藏</view>
+    </view>
+  </view>
+  <view class='bar-right bar-item'>
+    <view class='right-item cart' bindtap='onAddCart'>加入购物车</view>
+    <view class='right-item buy'>购买</view>
+  </view>
+</view>

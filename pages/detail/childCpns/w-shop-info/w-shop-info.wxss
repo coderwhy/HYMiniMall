@@ -1,0 +1,106 @@
+/* pages/detail/childCpns/w-shop-info/w-shop-info.wxss */
+.shop-info {
+  padding: 16rpx 16rpx 50rpx;
+  border-bottom: 12rpx solid #f2f2f2;
+}
+
+.title-info {
+  margin-top: 30rpx;
+}
+
+.title-info image {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 46rpx;
+  border: 1px solid rgba(200,200,200,.6);
+  vertical-align: middle;
+}
+
+.title-info text {
+  margin-left: 18rpx;
+  position: relative;
+  top: 6rpx;
+}
+
+.entrance {
+  text-align: center;
+}
+
+.entrance button::after {
+  border: none;
+}
+
+.entrance button {
+  padding: 8rpx 100rpx;
+}
+
+.sell-info {
+  display: flex;
+  margin: 40rpx 0;
+}
+
+.sell-item {
+  flex: 1;
+  text-align: center;
+}
+
+.count-info {
+  display: flex;
+  margin: 20rpx 0;
+  border-right: 1px solid rgba(200,200,200,.6);
+}
+
+.count-item {
+  flex: 1;
+  text-align: center;
+}
+
+.count-item .count {
+  font-size: 40rpx;
+}
+
+.count-item .text {
+  font-size: 28rpx;
+  margin-top: 16rpx;
+}
+
+.grade-info {
+  font-size: 28rpx;
+  padding: 0 20rpx;
+}
+
+.grade-row {
+  display: flex;
+}
+
+.grade-row .item {
+  margin-top: 8rpx;
+}
+
+.grade-row .name {
+  width: 200rpx;
+}
+
+.grade-row .score {
+  flex: 1;
+}
+
+.grade-row .better {
+  flex: 1;
+}
+
+.good {
+  color: #ff5777;
+}
+
+.less {
+  color: #5ea732;
+}
+
+/* .better.good {
+  background: #ff5777;
+}
+
+.better.less {
+  background: #5ea732;
+} */

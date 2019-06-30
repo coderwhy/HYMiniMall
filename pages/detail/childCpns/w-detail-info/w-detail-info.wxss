@@ -1,0 +1,48 @@
+/* pages/detail/childCpns/w-detail-info/w-detail-info.wxss */
+.detail-info {
+  border-bottom: 12rpx solid #f2f2f2;
+}
+
+.header {
+  position: relative;
+  padding: 10rpx 30rpx;
+  font-size: 32rpx;
+}
+
+.header .line {
+  width: 180rpx;
+  height: 1px;
+  background: #666;
+  margin: 30rpx 0;
+  position: relative;
+}
+
+.header .end {
+  float: right;
+}
+
+.header .start::before, .header .end::after {
+  content: "";
+  position: absolute;
+  width: 10rpx;
+  height: 10rpx;
+  background: #333;
+}
+
+.header .start::before {
+  bottom: 0;
+}
+
+.header .end::after {
+  bottom: 0;
+  right: 0;
+}
+
+.content .title {
+  margin: 50rpx 0 30rpx 30rpx;
+  font-size: 32rpx;
+}
+
+.content image {
+  width: 100%;
+}

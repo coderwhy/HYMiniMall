@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "w-tab-control": "/components/w-tab-control/w-tab-control",
+    "w-goods": "/components/w-goods/w-goods"
+  }
+}

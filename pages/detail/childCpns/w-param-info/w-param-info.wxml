@@ -1,0 +1,37 @@
+<!--pages/detail/childCpns/w-param-info/w-param-info.wxml-->
+<view class='param-info'>
+  <!-- 1.尺寸相关 -->
+  <view class='size'>
+    <block wx:for="{{paramInfo.sizes}}" 
+        wx:for-index="index" 
+        wx:for-item="itemx"
+        wx:key="index">
+      <view class='size-table'>
+        <block wx:for="{{itemx}}"
+               wx:for-index="indey"
+               wx:for-item="itemy"
+               wx:key="indey">
+          <view class='size-row row'>
+            <block wx:for="{{itemy}}"
+                   wx:for-index="indez"
+                   wx:for-item="itemz"
+                   wx:key="indez">
+              <view class='size-item'>{{itemz}}</view>
+            </block>
+          </view>
+        </block>
+      </view>
+    </block>
+  </view>
+
+  <!-- 2.信息相关 -->
+  <view class='info'>
+    <block wx:for="{{paramInfo.infos}}" 
+           wx:key="index">
+      <view class="info-row row">
+        <view class='key'>{{item.key}}</view>
+        <view class='value'>{{item.value}}</view>
+      </view>
+    </block>
+  </view>
+</view>

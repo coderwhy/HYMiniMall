@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "w-header": "./childCpns/w-header/w-header",
+    "w-info": "./childCpns/w-info/w-info",
+    "w-list-view": "./childCpns/w-list-view/w-list-view"
+  },
+  "navigationBarTitleText": "我的信息"
+}

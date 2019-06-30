@@ -1,0 +1,5 @@
+/* pages/profile/profile.wxss */
+.profile {
+  height: 100%;
+  /* background: #f8f8f8; */
+}
