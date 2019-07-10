@@ -5,6 +5,7 @@
                  titles="{{titles}}" 
                  bind:tabclick="tabClick"/>
   </view>
+  
   <scroll-view class='content' 
               scroll-y 
               bindscrolltolower="loadMore"
